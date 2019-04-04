@@ -12,3 +12,14 @@ multiple Flutter or Dart projects.
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
+
+## 使用库
+qr_flutter
+barcode_flutter
+
+##使用：
+Padding (
+              padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+              child: BarCodeView.autoBuildBarCode(data: barcode, codeType: barcode_format, hasText: true, size: 100,onError: (ex) {
+                print('[QR] ERROR - $ex');
+              }),
