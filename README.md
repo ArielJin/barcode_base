@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 qr_flutter
 barcode_flutter
 
-##使用：
+## 使用
 Padding (
               padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
               child: BarCodeView.autoBuildBarCode(data: barcode, codeType: barcode_format, hasText: true, size: 100,onError: (ex) {
