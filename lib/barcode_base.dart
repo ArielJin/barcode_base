@@ -57,27 +57,43 @@ class BarCodeView {
     switch (codeType) {
       case "BarcodeFormat.EAN_13":
       case "BarCodeFormat.CodeEAN13":
+      case "EAN_13":
+      case "CodeEAN13":
         return BarCodeType.CodeEAN13;
       case "BarcodeFormat.EAN_8":
       case "BarCodeFormat.CodeEAN8":
+      case "EAN_8":
+      case "CodeEAN8":
         return BarCodeType.CodeEAN8;
       case "BarcodeFormat.CODE_39":
       case "BarCodeFormat.Code39":
+      case "CODE_39":
+      case "Code39":
         return BarCodeType.Code39;
       case "BarcodeFormat.CODE_93":
       case "BarCodeFormat.Code93":
+      case "CODE_93":
+      case "Code93":
         return BarCodeType.Code93;
       case "BarcodeFormat.UPC_A":
       case "BarCodeFormat.CodeUPCA":
+      case "UPC_A":
+      case "CodeUPCA":
         return BarCodeType.CodeUPCA;
       case "BarcodeFormat.UPC_E":
       case "BarCodeFormat.CodeUPCE":
+      case "UPC_E":
+      case "CodeUPCE":
         return BarCodeType.CodeUPCE;
       case "BarcodeFormat.CODE_128":
       case "BarCodeFormat.Code128":
+      case "CODE_128":
+      case "Code128":
         return BarCodeType.Code128;
       case "BarcodeFormat.QR_CODE":
       case "BarCodeFormat.CodeQR":
+      case "QR_CODE":
+      case "CodeQR":
         return BarCodeFormat.CodeQR;
       default:
         return null;
